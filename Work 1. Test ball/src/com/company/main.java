@@ -7,5 +7,7 @@ public class main {
         Ball b3 = new Ball("White");
         b1.setDiameter(1);
         System.out.println(b1);
+        System.out.println(b2);
+        System.out.println(b3);
     }
 }

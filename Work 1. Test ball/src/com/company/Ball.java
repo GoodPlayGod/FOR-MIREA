@@ -1,34 +1,34 @@
 package com.company;
 
 public class Ball {
-    private String collor;
+    private String color;
     private int diameter;
     public Ball(String n, int a){
-        collor = n;
+        color = n;
         diameter = a;
     }
     public Ball(String n){
-        collor = n;
+        color = n;
         diameter = 0;
     }
     public Ball(){
-        collor = "Pup";
+        color = "colorless";
         diameter = 0;
     }
     public void setDiameter(int diameter) {
         this.diameter = diameter;
     }
-    public void setCollor(String collor) {
-        this.collor = collor;
+    public void setColor(String color) {
+        this.color = color;
     }
-    public String getCollor(String collor){
-        return collor;
+    public String getColor(String color){
+        return color;
     }
     public int getDiameter() {
         return diameter;
     }
     public String toString(){
-        return this.collor+", diameter "+this.diameter;
+        return this.color+", diameter "+this.diameter;
     }
 }
 
